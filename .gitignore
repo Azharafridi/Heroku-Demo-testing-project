@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Environments
+.env
+.env.local
+.env.*.local
+*.env
+*.ini
+*.config
+*.secret
+
+# Logs
+*.log
+*.out
+*.err
+*.pid
+*.csv
+
+# Database dumps
+*.sqlite3
+*.db
+
+# Heroku specific
+*.log
+*.local
+
+# MacOS files
+.DS_Store
+
+# Model files
+*.pkl
+*.h5
+
+# Temporary files
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Static files
+staticfiles/
+node_modules/
